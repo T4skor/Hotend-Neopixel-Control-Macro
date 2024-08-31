@@ -1,6 +1,6 @@
-# Hotend Neopixel Control
+#                                                        Hotend Neopixel Control
 
-## DESCRIPTION
+##                                                            DESCRIPTION
 
 This macro allows you to control a Neopixel LED based on the temperature of the hotend in a 3D printer running Klipper firmware. The Neopixel changes color depending on the hotend's temperature range:
 
