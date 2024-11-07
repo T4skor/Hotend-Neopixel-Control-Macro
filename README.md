@@ -19,8 +19,12 @@ Step 2: Put your neopixel pin where the macro asks for it.
 
 Step 3: Place it on your Klipper configuration directory
 
-Step 4: In your printer.cfg put "[include neopixel.cfg]"
+Step 4: Put in your print_start.cfg "CANCEL_TEMPERATURE_MONITOR"
 
-Step 5: Restart your Klipper
+Step 5: In your print_end.cfg put "START_TEMPERATURE_MONITOR"
+
+Step 6: In your printer.cfg put "[include neopixel.cfg]"
+
+Step 7: Restart your Klipper
 
 ## Happy Printing!
